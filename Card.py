@@ -4,6 +4,10 @@ class card:
         self.value = value
         self.type = type
 
-    def Readout(self):
-        text = self.name + " of " + self.type + "s"
-        return text
+    def Right(self):
+        text = "Your wrong it was the " + self.name + " of " + self.type + "s"
+        print(text)
+
+    def Wrong(self):
+        text = "Your wrong it was the " + self.name + " of " + self.type + "s"
+        print(text)
