@@ -1,3 +1,4 @@
+import random
 class card:
     def __init__(self, name, value, type):
         self.name = name
@@ -11,3 +12,5 @@ class card:
     def Wrong(self):
         text = "Your wrong it was the " + self.name + " of " + self.type + "s"
         print(text)
+
+

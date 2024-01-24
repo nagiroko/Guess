@@ -1,6 +1,10 @@
 from Card import card
 from hint import answer
+from deckbuilder import Deck
+import random
 
-single = card("seven", 7, "heart")
+deck = Deck()
+rand = random.randint(0,len(deck))
+single = deck[rand]
 answer(single)
 

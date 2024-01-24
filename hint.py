@@ -39,9 +39,9 @@ def redorblack(var):
         print("card is black")
 
 def gender(var):
-    if var.name == "queen":
+    if var.name == "Queen":
         print("card is female")
-    elif var.name == "king" or var.name == "jack":
+    elif var.name == "King" or var.name == "Jack":
         print("card is male")
     else:
         print("gender is unconfirmed")
