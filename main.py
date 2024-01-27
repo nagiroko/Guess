@@ -25,6 +25,30 @@ def game():
     Hints = 3
     rand = random.randint(0,len(pile))
     drew = pile[rand]
+    while Hints > 0:
+        choice = input("enter y if you want a hint or n if you would like to guess\n you have "+ str(Hints) + " hints left.")
+        choice = choice.lower()
+        if choice == "y":
+            answer(drew)
+            Hints -= 1
+        elif choice == "n":
+            Hints = 0
+        else:
+            pass
+    Answer(drew)
+
+def Answer(thing):
+    guessOne = input("enter type of card. Ex- Diamonds")
+    guessOne = guessOne.lower()
+    guessOne = guessOne.capitalize()
+    guessTwo = input("guess name of card. Exs- One or Queen ")
+    guessTwo = guessTwo.lower()
+    guessTwo = guessTwo.capitalize()
+    if guessOne == thing.type and guessTwo == thing.name:
+        thing.Right()
+    else:
+        thing.Wrong()
+
 
 
 

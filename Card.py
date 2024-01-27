@@ -6,11 +6,11 @@ class card:
         self.type = type
 
     def Right(self):
-        text = "Your right it was the " + self.name + " of " + self.type + "s"
+        text = "Your right it was the " + self.name + " of " + self.type
         print(text)
 
     def Wrong(self):
-        text = "Your wrong it was the " + self.name + " of " + self.type + "s"
+        text = "Your wrong it was the " + self.name + " of " + self.type
         print(text)
 
 

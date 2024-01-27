@@ -29,6 +29,7 @@ def answer(hidden):
                     print("number was not associated with a question please try again")
         except:
             print("answer was not a whole number please try again")
+    input("press enter to continue when ready")
 
 
 def oddoreven(var):
