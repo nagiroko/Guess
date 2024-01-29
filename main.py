@@ -49,6 +49,12 @@ def Answer(thing):
     else:
         thing.Wrong()
 
+    restart = input("enter nothing to play again or enter something to quit game")
+    if restart == '':
+        game()
+    else:
+        sys.exit("Thanks for playing")
+
 
 
 
