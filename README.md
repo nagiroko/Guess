@@ -12,6 +12,9 @@ color
 type
 value
 
+DeckMaker script
+
+Makes 52 class cards and returns it as an array
 
 Hint Script
 
@@ -22,5 +25,9 @@ what number hint you want and the dealers card
 
 Game Script 
 
-Hints you can ask 
+variables
+
+hints
+
+answer array
 
